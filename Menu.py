@@ -88,23 +88,24 @@ def hexadecimal_a_decimal(hexadecimal):
 
 embResP = '\n '+'-'*11+'RESULTADO'+'-'*10+'\n'
 embResF = '\n '+'-'*30
+Menu = '''
+  1.Binario => decimal
+  2.Binario => hexadecimal
+  3.Binario => octal
+  4.Decimal => binario
+  5.Decimal => hexadecimal
+  6.Decimal => octal
+  7.Hexadecimal => binario
+  8.Hexadecimal => decimal
+  9.Hexadecimal => octal
+  10.Octal => binario
+  11.Octal => decimal
+  12.Octal => hexadecimal
+  0.Salir/Cerrar
+	'''
 while ans:
 	try:
-		print ('''
-			1.Binario => decimal
-			2.Binario => hexadecimal
-			3.Binario => octal
-			4.Decimal => binario
-			5.Decimal => hexadecimal
-			6.Decimal => octal
-			7.Hexadecimal => binario
-			8.Hexadecimal => decimal
-			9.Hexadecimal => octal
-			10.Octal => binario
-			11.Octal => decimal
-			12.Octal => hexadecimal
-			0.Salir/Cerrar
-		''')
+		print (Menu)
 		ans= input('Elige tu operacion: ') 
 		if ans=='0':
 			print('\n Gracias \n')
