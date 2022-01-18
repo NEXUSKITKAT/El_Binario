@@ -86,28 +86,30 @@ def hexadecimal_a_decimal(hexadecimal):
 		posicion += 1
 	return decimal
 
-embResP = '\n ----------RESULTADO----------\n'
-embResF = '\n -----------------------------'
-
-try:
-	while ans:
+embResP = '\n '+'-'*11+'RESULTADO'+'-'*10+'\n'
+embResF = '\n '+'-'*30
+while ans:
+	try:
 		print ('''
-	   1.Binario => decimal
-	   2.Binario => hexadecimal
-	   3.Binario => octal
-	   4.Decimal => binario
-	   5.Decimal => hexadecimal
-	   6.Decimal => octal
-	   7.Hexadecimal => binario
-	   8.Hexadecimal => decimal
-	   9.Hexadecimal => octal
-	   10.Octal => binario
-	   11.Octal => decimal
-	   12.Octal => hexadecimal
-	   13.Salir/Cerrar
+			1.Binario => decimal
+			2.Binario => hexadecimal
+			3.Binario => octal
+			4.Decimal => binario
+			5.Decimal => hexadecimal
+			6.Decimal => octal
+			7.Hexadecimal => binario
+			8.Hexadecimal => decimal
+			9.Hexadecimal => octal
+			10.Octal => binario
+			11.Octal => decimal
+			12.Octal => hexadecimal
+			0.Salir/Cerrar
 		''')
 		ans= input('Elige tu operacion: ') 
-		if ans=='1':
+		if ans=='0':
+			print('\n Gracias \n')
+			break 
+		elif ans=='1':
 			b8 = input ('Ingrese un número binario => decimal: ')
 			print(embResP + f'El binario {b8} es {int(binario_a_decimal(b8))} en decimal' + embResF)
 		elif ans=='2':
@@ -143,11 +145,8 @@ try:
 		elif ans=='12':
 			b5 = input ('Ingrese un número octal => hexadecimal: ')
 			print(embResP + f'El octal {b5} es {hex(int(b5,8))} en hexadecimal' + embResF)
-		elif ans=='13':
-			print('\n Gracias \n')
-			break 
 		elif ans !='':
-			print('\n El numero escogido es incorrecto | La operacon no es valida \n')
-except:
-	print(embResP + 'Oops! Algo salio mal comprueba los valores y vuelve a intentarlo' + embResF)
+			print('-'*65 + '\n   El numero escogido es incorrecto | La operacon no es valida \n' + '-'*65)
+	except:
+		print(embResP + 'Oops! Algo salio mal comprueba los valores y vuelve a intentarlo' + embResF)
 	pass
