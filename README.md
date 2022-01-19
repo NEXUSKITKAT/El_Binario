@@ -33,6 +33,6 @@ sudo apt install python3.10
 
 ## Autores ✒️
 
-~ NEXUSKITKAT
+~ [NEXUSKITKAT](https://github.com/NEXUSKITKAT)
 
-~ El Llori
+~ [El Llori](https://github.com/ElLlori)
