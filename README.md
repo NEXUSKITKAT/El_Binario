@@ -3,9 +3,15 @@
 ## El_Binario es un conversor de números Binarios, Decimales, Hexadecimales y Octales
 ### Pre-requisitos 📋
 ```
-Python 3
+Windows 10
 ```
+###### Funciona en linux y mac con python3
 ### Instalación 🔧
+#### Windows:
+##### Recomendada: 
+Dirigete a [releases](https://github.com/NEXUSKITKAT/El_Binario/releases) y descarga el .exe y ya estaria listo para usar
+##### Opcionales:
+
 Si python ya esta instalado:
 
 Descarga el archivo descomprimelo y abre una terminal en la carpeta y ejecuta el siguiente comando:
@@ -18,7 +24,7 @@ Si python NO esta instalado:
 
 En Windows🪟:
 
-Dirigete a la [Microsoft Store](https://www.microsoft.com/es-es/p/python-310/9pjpw5ldxlz5#activetab=pivot:overviewtab) descarga y instala python o descargalo de la [Pagina Oficial de Python](https://www.python.org/downloads/) y sigue el asistente de instalacion
+Dirigete a la [Microsoft Store](https://www.microsoft.com/es-es/p/python-310/9pjpw5ldxlz5#activetab=pivot:overviewtab) descarga y instala python o descargalo de la Pagina Oficial de [Python](https://www.python.org/downloads/) y sigue el asistente de instalacion
 
 En Linux🐧:
 
