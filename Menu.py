@@ -103,6 +103,7 @@ Menu = '''
   12.Octal => hexadecimal
   0.Salir/Cerrar
 	'''
+print('\nEl_Binario')
 while ans:
 	try:
 		print (Menu)
